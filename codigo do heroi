@@ -1,0 +1,20 @@
+let nomedoHeroi = "homem-aranha";
+let xpdoheroi = 8000;
+
+if(xpdoheroi < 1000){
+    console.log(nomedoHeroi + "é um heroi do nivel ferro.");
+}else if(xpdoheroi >=1001 && xpdoheroi <=2000){
+    console.log(nomedoHeroi + "é um heroi do nivel Bronze.");
+}else if (xpdoheroi >= 2001 && xpdoheroi <= 5000) {
+    console.log(nomedoHeroi + " é um herói de nível Prata.");
+} else if (xpdoheroi >= 5001 && xpdoheroi <= 7000) {
+    console.log(nomedoHeroi + " é um herói de nível Ouro.");
+} else if (xpdoheroi >= 7001 && xpdoheroi <= 8000) {
+    console.log(nomedoHeroi + " é um herói de nível Platina.");
+} else if (xpdoheroi >= 8001 && xpdoheroi <= 9000) {
+    console.log(nomedoHeroi + " é um herói de nível Ascendente.");
+} else if (xpdoheroi >= 9001 && xpdoheroi <= 10000) {
+    console.log(nomedoHeroi + " é um herói de nível Imortal.");
+} else {
+    console.log(nomedoHeroi + " é um herói de nível Radiante.");
+}
